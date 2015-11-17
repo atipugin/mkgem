@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe <%= name.classify %> do
   it 'works' do
     expect(true).to be
