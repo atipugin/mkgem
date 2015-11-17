@@ -1,4 +1,5 @@
-require 'mkgem/version'
+require 'thor'
+require 'active_support/core_ext/string/inflections'
 
-module Mkgem
-end
+require 'mkgem/version'
+require 'mkgem/cli'
