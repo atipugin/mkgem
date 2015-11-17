@@ -19,4 +19,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '<%= Mkgem::Dependencies[:bundler] %>'
   spec.add_development_dependency 'rake', '<%= Mkgem::Dependencies[:rake] %>'
   spec.add_development_dependency 'pry', '<%= Mkgem::Dependencies[:pry] %>'
+  spec.add_development_dependency 'rspec', '<%= Mkgem::Dependencies[:rspec] %>'
 end
