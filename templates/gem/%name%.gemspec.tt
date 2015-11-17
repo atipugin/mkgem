@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '<%= Mkgem::Dependencies[:rake] %>'
   spec.add_development_dependency 'pry', '<%= Mkgem::Dependencies[:pry] %>'
   spec.add_development_dependency 'rspec', '<%= Mkgem::Dependencies[:rspec] %>'
+  spec.add_development_dependency 'rubocop', '<%= Mkgem::Dependencies[:rubocop] %>'
+  spec.add_development_dependency 'rubocop-rspec', '<%= Mkgem::Dependencies[:'rubocop-rspec'] %>'
 end
